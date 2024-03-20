@@ -4,8 +4,14 @@
 
 #include <stdio.h>
 int main() {
-  float nota1 = 5.5f;
-  float nota2 = 4.0f;
+  float nota1 ;
+  printf("digite Nota1; ");
+  scanf("%f", &nota1);
+  
+  float nota2 ;
+  printf("digite Nota2; ");
+  scanf("%f", &nota2);
+  
   float media = 0.4 * nota1 + 0.6 * nota2;
 
   printf("media final é %f\n", media);

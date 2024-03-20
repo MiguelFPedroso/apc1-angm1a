@@ -5,8 +5,13 @@
 #include <stdio.h>
 
 int main() {
-   int base = 2;
-   int altura = 3;
+   int base ;
+   printf("insira o tamanho da base: ");
+   scanf("%i" ,&base);
+   int altura ;
+   printf("insira o tamanho da altura: ");
+   scanf( "%i" ,&altura);
+
 
    int area = base * altura / 2; 
 

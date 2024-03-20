@@ -13,8 +13,12 @@
 int main() {
 
   
-  float valor_da_hora_de_trabalho = 150.0f;
-  float total_de_horas_trabalhadas_no_mes = 100.0f;
+  float valor_da_hora_de_trabalho ;
+  printf("insira o valor da hora de trabalho: ");
+  scanf("%f" ,&valor_da_hora_de_trabalho);
+  float total_de_horas_trabalhadas_no_mes ;
+  printf("insira o total de horas trabalhadas no mes: ");
+  scanf("%f" ,&total_de_horas_trabalhadas_no_mes);
 
 
   const float IR = 0.25f;

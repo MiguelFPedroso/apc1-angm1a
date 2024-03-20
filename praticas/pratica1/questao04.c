@@ -5,8 +5,11 @@
  #include <stdio.h>
 
   int main(){ 
-     float preco_inicial = 100.0f;
-     float preco_final = 0.0f;
+     float preco_inicial ;
+     printf("meta o preco inicial: ");
+     scanf( "%f" ,&preco_inicial);
+     float preco_final ;
+   
     
      const float ICMS = 0.17f;
      const float COFFINS = 0.076f;
