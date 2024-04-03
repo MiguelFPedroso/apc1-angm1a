@@ -19,15 +19,19 @@ int main(){
   int deu_certo3 = scanf("%f", &c);
 
   delta = pow(b, 2) - 4 * a * c ;
-  printf("delta: %f\n", delta);
+  printf("delta: %f.2\n", delta);
   if(delta < 0){
+    
     printf("não existe raiz real\n");
+    
   }
-  x1 = (-b + sqrt(delta)) / (2 * a);
-  printf("O valor da raiz um é: %f\n", x1);
-  
-  x2 = (-b - sqrt(delta)) / (2 * a);
-  printf("O valor da raiz dois é: %f\n", x2);
-  
+  else if(delta > 0){
+    x1 = (-b + sqrt(delta)) / (2 * a);
+    printf("O valor da raiz um é: %f.2\n", x1);
+
+    x2 = (-b - sqrt(delta)) / (2 * a);
+    printf("O valor da raiz dois é: %f.2\n", x2);
+  }
+
   return 0;
 }

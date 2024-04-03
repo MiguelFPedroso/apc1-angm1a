@@ -7,7 +7,9 @@ Faça um programa em C que calcule a altura alcançada por um avião após ter p
 
 int main(){
   
-  float distancia, angulo, altura;
+   float distancia, angulo;
+   const double PI = 3.14;
+  
   printf("digite a distancia: ");
   int deu_certo = scanf("%f", &distancia);
   printf("digite o angulo: ");
@@ -15,27 +17,10 @@ int main(){
   if(angulo > 45){
     printf("o angulo deve ser menor ou igual a 45°\n");
   }
-  while(angulo < 45){
-    altura = distancia * sin(angulo);
-    printf("altura é igual a: %f\n", altura);
+  else if (angulo <= 45){
+    double altura = distancia * sin(angulo * (PI/180));
+    printf("A altura eh igual a: %f\n", altura);
   }
-    
   
- 
-    
-  
-  
-
-
-  
-
-   
-
-
-
-
-
-
-
    return 0;
 }
