@@ -42,6 +42,5 @@ do {
     getchar();
     }
 } while (opcao != 4);
-
   return 0;
 }
