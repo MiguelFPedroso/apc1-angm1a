@@ -6,9 +6,10 @@ Este repositório foi criado com o objetivo de armazenar e organizar os códigos
 
 O repositório está dividido em duas principais seções:
 
-### 1. Aulas
-Nesta pasta, você encontrará os códigos referentes às aulas expositivas. São exemplos práticos, demonstrações e implementações discutidas durante as sessões teóricas.
+### 1. APC-I
+Nesta seção , voce encontrará tudo relacionado a codigos aprendidos em aula , e praticas presentes na matéria de APC-I
 
-### 2. Práticas
-Aqui estão armazenados os códigos correspondentes às atividades práticas. Essas práticas visam fortalecer os conceitos aprendidos em sala, proporcionando oportunidades para aplicação e exercício das habilidades adquiridas.
+### 2. APC-II
+Nesta seção , voce encontrará tudo relacionado a materia APC-II, tendo aqui registrado os codigos aprendidos emm aula
+
 
